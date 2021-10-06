@@ -78,7 +78,7 @@ def file_transfer(self):
             # if the last modified time is less than 24 hours ago
             if file_mtime > new_time:
                 # if the last modified time is less than 24 hours ago, copy
-                shutil.copy2(file_path, ddir)
+                shutil.move(file_path, ddir)
                 # add file path to list of copied files
                 c_files.append(file_path)
         
