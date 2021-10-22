@@ -9,3 +9,10 @@ This project functions as a phone book for a user. It saves a contact's name, ph
 
 ### File Transfer GUI
 This project allows the user to browse for source and destination directories for a file transfer. It evaluates which files have been created or modified in the past 24 hours and only transfers those files. 
+
+### Django University
+
+
+### Django Checkbook
+
+### Nice or Mean Game
